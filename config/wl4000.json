@@ -1,0 +1,9 @@
+{
+  "port": "/dev/ttyACM0",
+  "baudrate": 9600,
+  "parity": "E",
+  "stopbits": 1,
+  "bytesize": 8,
+  "timeout": 2,
+  "device_id": 1
+}
