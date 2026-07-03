@@ -182,7 +182,7 @@ Zero-based address = Modbus address − 1 (e.g. Modbus 40141 → address 140).
 Run `tests/word_order_test.py` — it tries all 4 byte/word order combinations and prints the decoded float for each. Pick the one that gives a sensible voltage reading (~220–240V for line-to-neutral). Then change `word_order="low_high"` to `word_order="high_low"` in `collect.py` and `tests/read_all_test.py`.
 
 **Different parameters to plot**
-Edit `plot.py` → the list `["VLN_AVG", "CURRENT_TOTAL", "FREQUENCY"]` — replace with any column names from `readings.csv`.
+Edit `visualization.ipynb` → the list `["VLN_AVG", "CURRENT_TOTAL", "FREQUENCY"]` — replace with any column names from `readings.csv`.
 
 ---
 
