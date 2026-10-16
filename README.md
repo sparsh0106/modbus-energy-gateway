@@ -192,3 +192,9 @@ Edit `visualization.ipynb` → the list `["VLN_AVG", "CURRENT_TOTAL", "FREQUENCY
 - Meter IDs 13 and 14 were not found on the bus during discovery.
 - `WH_RECEIVED` reads zero on some meters — check CT polarity and reverse lock setting in the meter's programming menu.
 - Word order is `low_high` (low register first) — confirmed via `tests/word_order_test.py`.
+
+---
+
+## 👤 Author
+
+**Sparsh Agarwal** — [GitHub](https://github.com/sparsh0106) · [LinkedIn](https://www.linkedin.com/in/sparsh-agarwal-4b443b304/)
